@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Corundum Games
+tagline: We are the diamond in the rough
 ---
 {% include JB/setup %}
 
