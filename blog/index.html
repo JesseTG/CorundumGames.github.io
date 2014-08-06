@@ -1,0 +1,14 @@
+---
+layout: page
+title: Blog
+tagline: From the horse's mouth
+group: navigation
+---
+{% include JB/setup %}
+
+{% for post in site.posts %}
+<p>
+{{ post.title }}
+{{ post.excerpt }}
+</p>
+{% endfor %}
