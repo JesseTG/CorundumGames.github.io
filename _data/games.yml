@@ -1,0 +1,53 @@
+---
+
+# Description of the fields is as follows:
+#
+# name: The user-visible name of the game
+# platforms: The platforms you can play the game on.  Will be a subset of the following:
+#   - win32 (Windows 32-bit)
+#   - win64 (Windows 64-bit)
+#   - mac (Mac OS X)
+#   - linux32 (Linux 32-bit)
+#   - linux64 (Linux 64-bit)
+#   - android (Mobile Android devices)
+#   - ios (iOS; iPod/iPad)
+#   - ouya (Ouya)
+#   - web (Browser-based)
+# distribution: The places you can get the game (or play, if it's online).  The following keys are available, and they will
+# each be paired with the link to the game on the relevant distribution center.  If it's null, then it's not available yet,
+# but it's planned.
+#   - here (From the website)
+#   - steam (Steam)
+#   - desura (Desura)
+#   - itchio (Itch.io)
+#   - ouya (Ouya store)
+#   - apple (Mac's App store)
+#   - ios (iOS App store)
+#   - play (Google Play)
+#   - ubuntu (Ubuntu Software Center)
+#   - source (Source code available at some public repository; GitHub, Bitbucket, etc.)
+#   Must be paired with a link to the relevant page
+# description: Link to a file containing a description (in HTML or something). Should be {% include %}ed.
+# release: Release date in one of the following formats:
+#   YYYY-MM-DD if an exact date is known (e.g. 2014-10-21 for October 21st, 2014)
+#   YYYY-MM if a month is known (e.g. 2015-01 for January 2015)
+#   YYYY-QN (where 1 <= N <= 4) if a quarter is known (e.g. 2015-Q2 for the second quarter of 2015)
+
+- name: Invasodado
+  platforms: { win32, win64, linux64 }
+  distribution:
+    here: null
+    desura: http://www.desura.com/games/invasodado
+    source: https://github.com/CorundumGames/Invasodado
+  description: cg/games/invasodado/description.html
+  release: 2013-06-23
+
+- name: Gravv
+  platforms: {win32, win64, mac, linux32, linux64, android, ios, ouya, web}
+  distribution:
+    here: null
+    desura: null
+    steam: null
+  description: cg/games/gravv/description.html
+  release: 2015-Q1
+...
