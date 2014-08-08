@@ -5,11 +5,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>{{ page.title }}</title>
+    <title>Corundum Games - Innovative gameplay, anytime, anywhere - {{ page.title }}</title>
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
-
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="Invasodado,Gravv,innovative,retro,game,mobile,app,Corundum Games,independent game studio,retro-gaming,homage" />
+    <meta property="og:title" content="Corundum Games" />
+    <meta property="og:type" content="game" />
+    <meta property="og:url" content="http://www.corundumgames.com/" />
+    <meta property="og:image" content="http://www.corundumgames.com/images/CORUNDUM GEM.png" />
+    <meta property="og:description" content="Corundum Games is a NYC-metro-based independent game studio, focused on retro-gaming &amp; fair use. Invasodado is a free, open source, retro, single-player game for Windows, Linux &amp; Mac." />
+    <meta property="og:site_name" content="Corundum Games" />
+    <meta property="og:latitude" content="40.7142" />
+    <meta property="og:longitude" content="74.0064" />
+    <meta property="og:locality" content="New York" />
+    <meta property="og:postal-code" content="10001" />
+    <meta property="og:country-name" content="USA" />
+    <meta property="og:email" content="director@corundumgames.com" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta itemprop="name" content="Corundum Games" />
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -71,8 +88,7 @@
         </nav>
 
         <main class="container" id="content">
-            {% include JB/setup %}
-            {{ content }}
+            {% include JB/setup %} {{ content }}
         </main>
 
         <aside id="sidebar">
@@ -82,7 +98,10 @@
 
     <footer id="footer">
         <div class="container">
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+            <p class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+            </p>
+
+            <p class="sitemap"><a href="/sitemap.txt">Sitemap</a>
             </p>
         </div>
     </footer>
