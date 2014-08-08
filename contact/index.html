@@ -4,3 +4,40 @@ title: Contact
 group: navigation
 tagline: Let's get in touch.
 ---
+
+<form action="http://getsimpleform.com/messages?form_api_token=8c02f91bfb2f0cf467eb83b36c4b1d3b" method="post" name="contact" id="contact">
+    <!-- the redirect_to is optional, the form will redirect to the referrer on submission>
+  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+  <!all your input fields here.... -->
+    <fieldset form="contact" name="contact">
+        <legend>Contact</legend>
+
+        <label for="name">
+            Name
+        </label>
+        <input type="text" id="name" name="name" required="true" autocomplete="true" placeholder="Required">
+        <br>
+        <label for="email">
+            E-Mail
+        </label>
+        <input type="email" id="email" name="email" required="true" autocomplete="true" placeholder="Required">
+        <br>
+        <label for="reason">Reason</label>
+        <select name="reason">
+            <option>I have a question.</option>
+            <option>I'd like to tell you something.</option>
+            <option>I'd like to make you an offer.</option>
+            <option>I'm reporting a bug.</option>
+            <option>I'm from the press.</option>
+            <option>Something else.</option>
+        </select>
+        <br>
+        <label for="message">
+            Message
+        </label>
+        <br>
+        <textarea name="message" id="message" required="true" placeholder="What'll you have?"></textarea>
+        <textarea id="honeypot" name="honeypot" style="display: none"></textarea>
+        <button name="submit" type='submit'>Submit</button>
+    </fieldset>
+</form>
