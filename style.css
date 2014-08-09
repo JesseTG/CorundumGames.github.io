@@ -1,0 +1,74 @@
+body{
+	background: url("/imgs/top-cover.png") repeat-x top left, url("/imgs/side-bar.png") repeat-y top right;
+}
+
+.navbar-default{
+	clear: both;
+	background-image: linear-gradient(to bottom, #ea862a 0px, #df1b06 100%);
+	background-repeat: repeat-x;
+	border-radius: 0px;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 5px rgba(0, 0, 0, 0.075);
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	margin-bottom: 0px;
+}
+
+ul.nav.navbar-nav li{
+	background: linear-gradient(to bottom, #f6b19b 0px, #f2673d 100%);
+	border-radius: 0px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000;
+	border-right: 1px solid #000;
+}
+
+ul.nav.navbar-nav li:first-child{
+	border-left: 1px solid #000;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #000;
+}
+
+.navbar-default .navbar-nav > .active > a{
+	background: linear-gradient(to bottom, #ffc1ab 0px, #ff774d 100%);
+	color: #000;
+}
+
+aside#sidebar{
+	margin-right: 0px !important;
+	background-color: transparent !important;
+	width: 350px;
+}
+
+#sidebio{
+	width: 320px;
+	height: 300px;
+	background-color: transparent !important;
+	margin-top: 15px;
+	margin-left: 15px;
+	padding: 10px;
+	background: url("/imgs/black-transparent.png") repeat top left;
+}
+
+#mybiopic{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	height: 120px;
+	width: 120px;
+}
+
+
+
+
+
+
+legend{
+	border-width: 0px 0px 0px 0px;
+}
+
+#message{
+	width: 640px;
+	height: 200px;
+}

@@ -4,3 +4,24 @@ title: Games
 group: navigation
 tagline: So what have we actually made?
 ---
+
+<p>
+{% for game in site.data.games %}
+	<div class="gamelistitem" >
+		<h4>{{ game.name }}</h4>
+		<div class="gamelisttitle">description:</div><div class="gamelisttext">{% include {{ game.description }} %}</div>
+		<div class="gamelisttitle">Platform:</div><div class="gamelisttext">
+			{{ game.platform[0] }}
+		</div>
+		
+		{% for dist in game.distribution %}
+			{% if dist.url == null %}
+			{% else %}
+				<div class="gamelisttitle">{{ dist.name }}</div><div class="gamelisttext">{{ dist.url }}</div>
+			{% endif %}
+		{% endfor %}
+		
+		<div class="gamelisttitle">Release:</div><div class="gamelisttext">{{ game.release }}</div>
+	</div>
+{% endfor %}
+</P>
