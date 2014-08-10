@@ -1,0 +1,29 @@
+---
+# Descriptions of the fields is as follows:
+# name: The name of the social media site
+# description: alt text that should appear when the user hovers over the relevant icon
+# url: Link to the social media in question
+# 
+
+- name: Facebook
+  description: Like Corundum Games on Facebook
+  url: null
+- name: Twitter
+  description: Follow Corundum Games on Twitter
+  url: https://twitter.com/corundumgames
+- name: Reddit
+  description: Check out Corundum Games' subreddit
+  url: null
+- name: RSS
+  description: Add Corundum Games to your RSS reader
+  url: null
+- name: GitHub
+  description: Check out Corundum Games' open source contributions
+  url: https://github.com/CorundumGames
+- name: E-Mail
+  description: Send an e-mail to Corundum Games
+  url: null
+- name: Google+
+  description: Add Corundum Games on Google+
+  url: null
+...
