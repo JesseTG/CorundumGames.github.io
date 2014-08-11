@@ -1,0 +1,25 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:af2faa1555b46179dbaa176a72f6096b:b64b89387f682cf0c1899be751584b14:c1ee168f159803751568abcd791c10ca$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(invasodado-sprites.png);}
+
+.alien-blue {width:28px; height:32px; background-position: -192px -0px}
+.alien-green {width:28px; height:32px; background-position: -220px -0px}
+.alien-purple {width:28px; height:32px; background-position: -248px -0px}
+.alien-red {width:28px; height:32px; background-position: -276px -0px}
+.alien-yellow {width:28px; height:32px; background-position: -304px -0px}
+.block-blue {width:32px; height:32px; background-position: -0px -0px}
+.block-green {width:32px; height:32px; background-position: -32px -0px}
+.block-purple {width:32px; height:32px; background-position: -64px -0px}
+.block-red {width:32px; height:32px; background-position: -96px -0px}
+.block-yellow {width:32px; height:32px; background-position: -128px -0px}
+.ship {width:32px; height:32px; background-position: -160px -0px}
