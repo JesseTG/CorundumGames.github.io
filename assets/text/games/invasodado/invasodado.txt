@@ -1,0 +1,53 @@
+Game: Invasodado - The Cube Invaders
+Developers: Corundum Games
+Web: www.corundumgames.com
+Contact: Jesse Talavera-Greenberg (director@corundumgames.com)
+
+"SPACE INVADERS" AND "COLUMNS" MARRY, HAVE HEALTHY 17MB CHILD
+
+Nine months ago, we set up an invite-only mixer for single retro games, kind of
+like a speed-dating thing.  Most of the games invited were still getting over
+some rather nasty divorce or separation issues.  It was a nice learning
+experience (Dear Lord, does Custer's Revenge have baggage), but it turned out to
+be something of a bust.
+
+For the most part.
+
+Space Invaders and Columns, as it turns out, were destined for each other.  Fast
+forward to June 2013, and their first child is born.  Much rejoicing and alcohol
+was had.  The baby was hence christened "Invasodado."
+
+So all right, you've got the usual Earth defense routine, what with the space
+ship and the aliens and the danger.  This particular breed, however, leaves
+behind a rather strange and inconvenient mess behind; upon death, they turn into
+colored blocks that must be matched in threes (or more) to clear!  If you don't,
+the stage will overflow, you'll die, and we will forever look upon you in shame.
+
+CAN YOU PROTECT THE EARTH FROM A FABULOUS DOOM?
+
+FEATURES:
+
+- It's free and open source!
+- It runs on Windows and Linux!  (Mac version coming soon, too.)
+- You won't get a venereal disease!
+- The music's really cool!
+- It has online high scores!
+- It's in English and Spanish!  (More languages on the way, too.)
+- It's color-blind friendly!
+- It's got three gameplay modes!
+- From the guys who made...well, actually, this is the first thing we've made.
+- But unless you hate our guts, this won't be our last!
+- On the other hand, even if you do, we'll make something else anyway, because
+  we're really stubborn.
+
+ABOUT CORUNDUM GAMES
+
+Corundum Games is an independent game studio based near the New York
+metropolitan area, tended to and cared for by people who should be studying for
+statistics exams.  Our goal is to make something that tickles your retro-gaming
+fancy, with a dash of humor here and there and some liberally-applied fair use.
+
+USEFUL LINKS:
+Home Page: www.corundumgames.com
+Twitter: @CorundumGames
+GitHub: https://github.com/CorundumGames
