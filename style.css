@@ -157,6 +157,13 @@ legend{
 	
 }
 
+.gamevideo{
+	float: right;
+	margin: 10px;
+	height: 315px;
+	width: 420px;
+}
+
 .gamemainshot{
 	float: right;
 	margin: 10px;
