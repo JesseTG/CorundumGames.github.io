@@ -1,0 +1,87 @@
+---
+layout: page
+title: Invasodado
+tagline: The Cube Invaders
+---
+
+{% for game in site.data.games %}
+	{% if game.name == "Invasodado" %}
+	<div class="gamelistitem" >
+		<div class="gameslistheader"><h4 style="float: left; padding: 0px; margin: 0px;">{{ game.name }}</h4> <span style="float:right">{{ game.release }}</span></div>
+		<div class="gameslistcontent">
+			<h4 style="padding: 0px; margin: 0px;">Description</h4>
+			<img class="gamemainshot" src="imgs/mainshot.png" alt="{{ game.name }}" />
+		
+			"SPACE INVADERS" AND "COLUMNS" MARRY, HAVE HEALTHY 17MB CHILD<br/><br/>
+
+			Nine months ago, we set up an invite-only mixer for single retro games, kind of
+			like a speed-dating thing.  Most of the games invited were still getting over
+			some rather nasty divorce or separation issues.  It was a nice learning
+			experience (Dear Lord, does Custer's Revenge have baggage), but it turned out to
+			be something of a bust.
+			<br/><br/>
+			For the most part.
+			<br/><br/>
+			Space Invaders and Columns, as it turns out, were destined for each other.  Fast
+			forward to June 2013, and their first child is born.  Much rejoicing and alcohol
+			was had.  The baby was hence christened "Invasodado."
+			<br/><br/>
+			So all right, you've got the usual Earth defense routine, what with the <span class="ship sprite"></span> and the <span class="alien-blue sprite"></span> and the danger.  This particular breed, however, leaves
+			behind a rather strange and inconvenient mess behind; upon death, they turn into
+			colored blocks that must be matched in threes (or more) to clear!  If you don't,
+			the stage will overflow, you'll die, and we will forever look upon you in shame.
+			<br/><br/>
+			CAN YOU PROTECT THE EARTH FROM A FABULOUS DOOM?
+			<hr class="footerline" />
+			
+			<h4 style="padding: 0px; margin: 0px;">Features</h4><br/>
+			
+			<ul style="list-style-type: none; padding: 0px; margin: 0px;">
+				<li><span class="alien-green sprite"></span> It's free and open source!</li>
+				<li><span class="block-blue sprite"></span> It runs on Windows and Linux!  (Mac version coming soon, too.)</li>
+				<li><span class="alien-red sprite"></span> The music's really cool!</li>
+				<li><span class="block-purple"></span> It has online high scores!</li>
+				
+				<li><span class="alien-yellow sprite"></span> It's in English and Spanish!  (More languages on the way, too.)</li>
+				<li><span class="block-green sprite"></span> It's color-blind friendly!</li>
+				<li><span class="alien-purple sprite"></span> It's got three gameplay modes!</li>
+				<li><span class="block-yellow sprite"></span> It has online high scores!</li>
+			</ul>
+			
+			<hr class="footerline" />
+			
+			<h4 style="padding: 0px; margin: 0px;">Screenshots</h4><br/>
+			<a href="imgs/screen1.png"><img class="gameshot" src="imgs/screen1.png" alt="{{ game.name }}" /></a>
+			<a href="imgs/screen2.png"><img class="gameshot" src="imgs/screen2.png" alt="{{ game.name }}" /></a>
+			<a href="imgs/screen3.png"><img class="gameshot" src="imgs/screen3.png" alt="{{ game.name }}" /></a>
+			<a href="imgs/screen4.png"><img class="gameshotlineend" src="imgs/screen4.png" alt="{{ game.name }}" /></a><br />
+			<a href="imgs/screen5.png"><img class="gameshot" src="imgs/screen5.png" alt="{{ game.name }}" /></a>
+			<a href="imgs/screen6.png"><img class="gameshot" src="imgs/screen6.png" alt="{{ game.name }}" /></a>
+			<a href="imgs/screen7.png"><img class="gameshot" src="imgs/screen7.png" alt="{{ game.name }}" /></a>
+			<a href="imgs/screen8.png"><img class="gameshotlineend" src="imgs/screen8.png" alt="{{ game.name }}" /></a><br />
+			
+			
+			<hr class="footerline" />
+			
+			</div>
+		<div class="gameslistfooter">
+			<div style="float: left;">
+				<div class="downloadtitle">//Download</div><div class="downloadlist">
+					{% for dist in game.distribution %}
+						{% if dist[1] == null %}
+						{% else %}
+							<a href="{{ dist[1] }}">{{ dist[0] }}</a>
+						{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+		
+			<div style="float: right;">
+				{% for plat in game.platforms %}
+					<img class="platicon" src="/imgs/{{ plat }}.png" />
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
+{% endfor %}

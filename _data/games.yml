@@ -34,26 +34,20 @@
 #   YYYY-QN (where 1 <= N <= 4) if a quarter is known (e.g. 2015-Q2 for the second quarter of 2015)
 
 - name: Invasodado
-  platforms: [ win32, win64, linux64 ]
+  platforms: { win32, win64, linux64 }
   distribution:
-    - name: here
-      url: null
-    - name: desura 
-      url: http://www.desura.com/games/invasodado
-    - name: source
-      url: https://github.com/CorundumGames/Invasodado
+    here: null
+    desura: http://www.desura.com/games/invasodado
+    source: https://github.com/CorundumGames/Invasodado
   description: cg/games/invasodado/description.html
   release: 2013-06-23
 
 - name: Gravv
   platforms: {win32, win64, mac, linux32, linux64, android, ios, ouya, web}
   distribution:
-    - name: here
-      url: null
-    - name: desura 
-      url: null
-    - name: steam
-      url: null
+    here: null
+    desura: null
+    steam: null
   description: cg/games/gravv/description.html
   release: 2015-Q1
 ...

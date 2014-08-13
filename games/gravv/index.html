@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Games
-group: navigation
-tagline: So what have we actually made?
+title: Gravv
+tagline: Something about Gravv
 ---
 
 {% for game in site.data.games %}
+	{% if game.name == "Gravv" %}
 	<div class="gamelistitem" >
 		<div class="gameslistheader"><h4 style="float: left; padding: 0px; margin: 0px;">{{ game.name }}</h4> <span style="float:right">{{ game.release }}</span></div>
 		<div class="gameslistcontent">
@@ -16,8 +16,13 @@ tagline: So what have we actually made?
 			</div>
 		<div class="gameslistfooter">
 			<div style="float: left;">
-				<div class="moreinfo">
-					<a href="/games/{{ game.name }}/index.html">More info</a>
+				<div class="downloadtitle">//Download</div><div class="downloadlist">
+					{% for dist in game.distribution %}
+						{% if dist[1] == null %}
+						{% else %}
+							<a href="{{ dist[1] }}">{{ dist[0] }}</a>
+						{% endif %}
+					{% endfor %}
 				</div>
 			</div>
 		
@@ -28,4 +33,5 @@ tagline: So what have we actually made?
 			</div>
 		</div>
 	</div>
+	{% endif %}
 {% endfor %}
