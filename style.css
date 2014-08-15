@@ -184,6 +184,31 @@ legend{
 	width: 160px;
 }
 
+.bloglistitem{
+	background-color: #f5f5f5;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 1em;
+}
+
+.bloglistheader{
+	background-color: #f0f0f0;
+	padding: 0.5em;
+	width: 100%;
+	height: 2.5em;
+}
+
+.bloglistcontent{
+	padding: 0.5em;
+	padding-bottom: 0em;
+}
+
+.bloglistfooter{
+	padding: 0.5em;
+	padding-top: 0em;
+	width: 100%;
+	height: 2.5em;
+}
+
 .sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(/imgs/invasodado-sprites.png);}
 
 .alien-blue {width:28px; height:32px; background-position: -192px -0px}
