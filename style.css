@@ -249,6 +249,12 @@ legend{
 	height: 2.5em;
 }
 
+
+/*Chrome fix v0.1*/
+.container{
+	float: left;
+}
+
 .sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(/imgs/invasodado-sprites.png);}
 
 .alien-blue {width:28px; height:32px; background-position: -192px -0px}
