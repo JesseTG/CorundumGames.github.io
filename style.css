@@ -39,10 +39,11 @@ aside#sidebar{
 	margin-right: 0px !important;
 	background-color: transparent !important;
 	width: 350px;
+	float: right;
 }
 
 #miniblog{
-	width: 320px;
+	width: 90%;
 	height: 200px;
 	background-color: transparent !important;
 	margin-top: 15px;
@@ -268,3 +269,36 @@ legend{
 .block-red {width:32px; height:32px; background-position: -96px -0px}
 .block-yellow {width:32px; height:32px; background-position: -128px -0px}
 .ship {width:32px; height:32px; background-position: -160px -0px}
+
+@media all and (max-width: 1500px){
+	body{
+		background: none;
+	}
+	
+	main#content {
+		margin-left: 0%;
+		width: 70%;
+	}
+	
+	aside#sidebar{
+		width: 30%;
+	}
+}
+
+@media all and (max-width: 700px){
+	body{
+		background-color: none;
+	}
+	
+	main#content {
+		float: none;
+		margin-left: 0%;
+		width: 100%;
+	}
+	
+	aside#sidebar{
+		float: none;
+		clear:both;
+		width: 100%;
+	}
+}
