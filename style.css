@@ -92,6 +92,8 @@ aside#sidebar{
 	margin: 0px;
 	padding: 0px;
 	margin-bottom: 5px;
+	margin-right: 5px;
+	float: left;
 }
 
 #sociallist li a, #sociallist li a:hover, #sociallist li a:visited{

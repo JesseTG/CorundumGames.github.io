@@ -7,6 +7,12 @@
 
 <ul id="sociallist">
 	{% for social in site.data.social %}
-	<li><a href="{{ social.url }}"><img src="/imgs/{{ social.name | downcase }}.png" /> - {{ social.description }}<a/></li>
+	<li>
+		<abbr title="{{ social.description }}" >
+			<a href="{{ social.url }}">
+				<img src="/imgs/{{ social.name | downcase }}.png" alt="{{ social.description }}" />
+			</a>
+		</abbr>
+	</li>
 	{% endfor %}
 </ul>
