@@ -20,10 +20,10 @@
 - name: GitHub
   description: Check out Corundum Games' open source contributions
   url: https://github.com/CorundumGames
-- name: E-Mail
+- name: EMail
   description: Send an e-mail to Corundum Games
   url: null
-- name: Google+
+- name: Googleplus
   description: Add Corundum Games on Google+
   url: null
 ...

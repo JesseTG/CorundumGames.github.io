@@ -1,4 +1,12 @@
-<div id="sidebio">
-	<img id="mybiopic" src="/imgs/jesse.png" alt="[Picture of Me]" />
-	I'm a little teapot
+<div id="miniblog">
+	<h2>-News-</h2>
+	{% for post in site.posts %}
+	<a href="{{ post.url | downcase }}"><h4>{{ post.title }}</h4></a>
+	{% endfor %}
 </div>
+
+<ul id="sociallist">
+	{% for social in site.data.social %}
+	<li><a href="{{ social.url }}"><img src="/imgs/{{ social.name | downcase }}.png" /> - {{ social.description }}<a/></li>
+	{% endfor %}
+</ul>
